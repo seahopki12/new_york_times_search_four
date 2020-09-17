@@ -1,0 +1,49 @@
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* changed background-color from #00722b to #007BC7 to make sure it met 4:5:1 contrast ratio with the text. */
+    background-color: rgb(68, 99, 77);
+    color: #ffffff;
+}
+
+
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+
+/* navigation bar with reactive links and text.*/
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+/* Footer */
+
+
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-top: 1px solid #bbb;
+    
+}
+
+
+.footer h2 {
+    font-size: 20px;
+   
+}
+.blacktext {
+    color: black; 
+    text-align: center; 
+}
