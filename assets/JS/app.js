@@ -22,7 +22,7 @@ $.ajax({
         var headline = response.response.docs[i].headline.print_headline
         var artURL = response.response.docs[i].web_url
         // var link = $("<a>").attr("")
-        $("#articles").append(`<li> <a href=${artURL} target="_blank"><h1>${headline}</h1></a> </li>`);
+        $("#articles").append(`<li class="listItem"> <a href=${artURL} target="_blank"><h1 class="headline">${headline}</h1></a> </li>`);
     }
 
 });

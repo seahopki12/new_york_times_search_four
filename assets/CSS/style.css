@@ -25,7 +25,15 @@
     
 }
 
+/* Featured */
 
+.headline {
+    font-size: 18px;
+}
+
+.listItem {
+    margin-left: 2%;
+}
 
 
 /* Footer */

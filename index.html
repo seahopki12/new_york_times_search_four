@@ -13,69 +13,81 @@
 </head>
 
 <body>
-    <<<<<<< HEAD <!-- <header>New York Times Search</header> -->
-        =======
-        >>>>>>> 2468d5505d983d9dfdb75fac405aefc860597def
+    <!-- <header>New York Times Search</header> -->
 
+    <div class="header">
+        <h1>New York Times Search</h1>
+    </div>
+    <br></br>
+    <div class="card container-fluid">
 
-        <div class="card container-fluid">
-            <div class="header">
+        <h1>NY Times Form</h1>
+        <div>
 
-                <<<<<<< HEAD <h1>New York Times Search</h1>
+            <div class="card container-fluid">
+
+                <div class="card-header">
+                    Search Parameters
+                </div>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <form>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput">Search Term:</label>
+                                <input type="text" class="form-control" id="terms" placeholder="">
+                            </div>
+                            <div class="input-group mb-3">
+                                <label for="formGroupExampleInput">Number of Records to Retrieve:
+                                <select class="custom-select" id="inputGroupSelect01">
+                                
+                                  <option selected></option>
+                                  <option value="1">One</option>
+                                  <option value="2">Two</option>
+                                  <option value="3">Three</option>
+                                  <option value="4">Four</option>
+                                  <option value="5">Five</option>
+                                  <option value="6">Six</option>
+                                  <option value="7">Seven</option>
+                                  <option value="8">Eight</option>
+                                  <option value="9">Nine</option>
+                                  <option value="10">Ten</option>
+                                </select>
+                            </label>
+                              </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">Start Year (Optional):</label>
+                                <input type="text" class="form-control" id="startY" placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="formGroupExampleInput2">End Year (Optional):</label>
+                                <input type="text" class="form-control" id="endY" placeholder="">
+                            </div>
+                        </form>
+                    </li>
+                </ul>
             </div>
-            <br></br>
-            <div class="card container" style="width: 38rem;">
-                =======
-                <h1>NY Times Form</h1>
-                <div>
+            </br>
 
-                    <div class="card container-fluid">
-                        >>>>>>> 2468d5505d983d9dfdb75fac405aefc860597def
-                        <div class="card-header">
-                            Search Parameters
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">
-                                <form>
-                                    <div class="form-group">
-                                        <label for="formGroupExampleInput">Example label1</label>
-                                        <input type="text" class="form-control" id="terms" placeholder="Example input">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="formGroupExampleInput2">Example label2</label>
-                                        <input type="text" class="form-control" id="records"
-                                            placeholder="Another input">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="formGroupExampleInput2">Example label2</label>
-                                        <input type="text" class="form-control" id="startY" placeholder="Another input">
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="formGroupExampleInput2">Example label2</label>
-                                        <input type="text" class="form-control" id="endY" placeholder="Another input">
-                                    </div>
-                                </form>
-                            </li>
-                        </ul>
-                    </div>
-                    </br>
-                    <div class="card container-fluid" style="width: 38rem;">
 
-                        <div class="card container-fluid">
-                            <div class="card-header">
-                                Featured
-                            </div>
-                            <ul class="list-group list-group-flush" id="articles">
-                                <li class="list-group-item"></li>
-                            </ul>
-                        </div>
-                        </br>
-                        <div class="container-fluid" style="width: 40rem;">
-                            <div class="footer">
-                                <p class="blacktext">
-                                    Made with lots of ❤️.
-                                </p>
-                            </div>
+            <div class="card container-fluid">
+                <div class="card-header">
+                    Featured
+                </div>
+                <ul class="list-group list-group-flush" id="articles">
+                    <li class="list-group-item"></li>
+                </ul>
+            </div>
+            </br>
+            <div class="container-fluid" style="width: 40rem;">
+                <div class="footer">
+                    <p class="blacktext">
+                        Made with lots of ❤️.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
 
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"
