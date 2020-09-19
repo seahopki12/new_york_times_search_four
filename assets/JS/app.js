@@ -3,11 +3,11 @@
 
 var apiURL = "https://api.nytimes.com/svc/search/v2/articlesearch.json?q=";
 var apikey = "&api-key=4d4GyNsASxu5AAQKfKGSS0A9gOvDyxbq";
-var searchTerm = "GWU&begin_date=2019&end_date=2020";
-var recordNUM = $("#records").val() || 5;
-var startYear = $("#startY").val();
-var endYear = $("#endY").val();
-var queryURL = apiURL + toString(searchTerm) + apikey;
+var searchTerm = "";
+var recordNUM = $("#inputGroupSelect01").val() || 5;
+var startYear = $("&begin_date") + ("#startY").val();
+var endYear = $("&end_date") + ("#endY").val();
+var queryURL = apiURL + searchTerm + recordNUM + toString(startYear) + toString(endYear) + apikey;
 
 
 
